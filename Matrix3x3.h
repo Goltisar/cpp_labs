@@ -18,6 +18,7 @@ public:
 	int sumRow(const int iRow) const;
 	int minColumn(const int iCol) const;
 	int maxColumn(const int iCol) const;
+	static const int dim = 3;
 private:
-	int matrix[3][3];
+	int matrix[dim][dim];
 };
